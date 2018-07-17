@@ -24,12 +24,16 @@ operation = gets.chomp
 
   case operation
   when "1"
+    p "the sum of #{numb1} and #{numb2} is:"
     puts numb1 + numb2
   when "2"
+    p "the subtraction of #{numb1} and #{numb2} is:"
     puts numb1 - numb2
   when "3"
+    p "the multiplication of #{numb1} and #{numb2} is:"
     puts numb1 * numb2
   when "4"
+    p "the division of #{numb1} and #{numb2} is:"
     puts numb1 / numb2
   end
 end
@@ -54,7 +58,7 @@ if calc_choice.downcase == "a"
 
   case operation
   when "5"
-  p "the square root of #{num1} is:"
+  p "the square root of #{numb1} is:"
   puts Math.sqrt(numb1)
 
   when "6"
